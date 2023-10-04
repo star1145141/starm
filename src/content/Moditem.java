@@ -1,9 +1,9 @@
 package content;
-
-public class Moditem {
-    AWA=new void item("AWA",Color.valueOF("d99d73")){{
-    hardness=1;
-    cost=0.5f;
-        boolean alwaysUnlocked = true;
+public static item AWA ;
+public static void load(){
+   AWA=new item("AWA"){{
+        int hardness = 1;
+        boolean alwaysUnlocked=true;
+   float cost=0.5f;
     }};
 }
